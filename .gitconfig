@@ -1,0 +1,11 @@
+[user]
+	name = Vighnesh Raut
+	email = rvighnesh@google.com
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[alias]
+	adog = log --all --decorate --oneline --graph
