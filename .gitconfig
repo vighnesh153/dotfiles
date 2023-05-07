@@ -1,11 +1,15 @@
-[user]
-	name = Vighnesh Raut
-	email = rvighnesh@google.com
+[http]
+	cookiefile = /Users/rvighnesh/.gitcookies
+[color]
+	ui = auto
+[merge]
+	renameLimit = 999999
+[diff]
+	renameLimit = 999999
 [core]
+	excludesFile = ~/.gitignore
 	editor = nano
-[init]
-	defaultBranch = main
-[pull]
-	rebase = true
 [alias]
 	adog = log --all --decorate --oneline --graph
+[user]
+	name = vighnesh153
